@@ -185,9 +185,9 @@ a {
     border-radius: 50%;
 }
 
-.testimonial .col-3:hover {
+/* .testimonial .col-3:hover {
     transform: translateY(-10px);
-}
+} */
 
 .fa-quote-left {
     font-size: 34px;
@@ -334,5 +334,9 @@ footer hr {
     .col-3,
     .col-4 {
         flex-basis: 100%;
+    }
+
+    .testimonial .col-3 {
+        padding-bottom: 100px;
     }
 }
